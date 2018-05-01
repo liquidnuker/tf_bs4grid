@@ -60,7 +60,7 @@ module.exports = {
 			purifyOptions: {
         whitelist: [ '*:not*' ]
       },
-			minimize: true
+			// minimize: true
 		}),
 	],
 	resolve: {

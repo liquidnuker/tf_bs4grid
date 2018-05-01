@@ -12,7 +12,8 @@
 @import "components/buttons";
 
 @import "vendor/mq"; 
-@import "layout/grid";
+// @import "layout/grid";
+@import "vendor/bootstrap4/bootstrap-grid";
 
 // show the active breakpoints (_mq.scss)
 // ==================================================/
@@ -20,7 +21,9 @@
 
 // // show col-* grid borders (_grid.scss)
 // // ==================================================/
-// @include col-grid-border(#000);
+[class|="col"] {
+  border: 1px solid #000;
+}
 
 // temp
 body {
