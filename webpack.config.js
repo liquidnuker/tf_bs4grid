@@ -58,9 +58,9 @@ module.exports = {
 				// path.join(__dirname, 'src/components/*.jsx')
 			]),
 			purifyOptions: {
-        whitelist: [ '*:not*' ]
-      },
-			// minimize: true
+          whitelist: [ '*:not*' ]
+        },
+			minimize: true
 		}),
 	],
 	resolve: {
